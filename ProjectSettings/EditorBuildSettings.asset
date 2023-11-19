@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Current/Scenes/MainMenu.unity
+    guid: 6176ee0a18c0af94db12dc59711232f5
+  - enabled: 1
+    path: Assets/Current/Scenes/MemoryMenu.unity
+    guid: 8791ec2653fdf0647ad16b365ab552d8
+  - enabled: 1
+    path: Assets/Current/Scenes/MemoryMenu2.unity
+    guid: 4902c8d1c896e084aa18bd8310480b63
+  - enabled: 1
+    path: Assets/Current/Scenes/MemoryMenu3.unity
+    guid: 2ad5ed2cecd90eb46930bad82c03b4d5
+  - enabled: 1
+    path: Assets/Current/Scenes/MemoryPark.unity
+    guid: e16173ee193ca2540bf111ebb38f8e7b
+  - enabled: 1
+    path: Assets/Current/Scenes/MemoryPark2.unity
+    guid: 6e2d5c09a4a61644fa8dabb36c042863
+  - enabled: 1
+    path: Assets/Current/Scenes/MemoryPark3.unity
+    guid: b679e73ca972b5b4aab558047875bcd9
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 4849d3affc91a1d4ab4f1d38ec1980b4, type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 7c9d6b674416a814cb778ceaa5b4c355, type: 2}
+    com.unity.addressableassets: {fileID: 11400000, guid: 2a48ac176396d6048aec807ebc0a2d6a, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 1b9b1e54e81fca44292d5f3b12ca282b, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3b12e0c20f46b6e4ea771918d2d3ef15, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ae83e8cc044b6544ebd21c0b6dea718e, type: 2}
