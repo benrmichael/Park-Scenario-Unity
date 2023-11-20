@@ -1,0 +1,22 @@
+* Character Pack - CASUAL LOW POLY *
+
+This pack contains 6 unique models and 1 dynamic model that you can change hair, beard, eyebrow, coat and textures.
+
+# How to use 
+Grab any of the prefabs to your scene and you can start using right away. It works with any HUMANOID animation that is compatible with Unity.
+The CharacterVisuals.cs present in the sample is a helper script to help demonstrate how you can change the parts of the dynamic character presented in the 
+*Character DYNAMIC* scene.
+
+# Leave a feedback!
+	If you like the asset, leave a review!
+
+# Help me continue making more free assets 
+	Checkout my other assets -> https://assetstore.unity.com/publishers/29558
+	Support me so I can continue giving support and releasing more free assets!
+	You can ALSO support me through https://ko-fi.com/elvismd
+	
+# Needs some info?
+	You can contact me at contact@elvismd.com!
+
+Thank you!	
+EMD
