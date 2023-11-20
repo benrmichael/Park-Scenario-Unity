@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: InstructionsString_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: f4d128cfa9e579a47b187c764ff0e91f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 23625560064
+    m_Localized: Practica lanzar objetos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15379475820544
+    m_Localized: 'Orden:
+
+      Manzana
+
+      Vendaje
+
+      Botella'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1067564385005568
+    m_Localized: "\xA1Presione el gatillo para comenzar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414779234250752
+    m_Localized: 'Orden:
+
+      Roca
+
+      Papas fritas
+
+      Palo'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1417124747767808
+    m_Localized: "\xA1Presione el gatillo para comenzar!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424400619499520
+    m_Localized: 'Orden:
+
+      Manzana
+
+      Papas fritas
+
+      Roca'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
