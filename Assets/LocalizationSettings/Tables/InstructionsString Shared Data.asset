@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: InstructionsString Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: String Table
+  m_TableCollectionNameGuidString: f4d128cfa9e579a47b187c764ff0e91f
+  m_Entries:
+  - m_Id: 23625560064
+    m_Key: practiceThrowingItemsPrompt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15379475820544
+    m_Key: itemOrderScene1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1067564385005568
+    m_Key: startMemoryTaskPrompt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1414779234250752
+    m_Key: itemOrderScene2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1417124747767808
+    m_Key: startPrompt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1424400619499520
+    m_Key: itemOrderScene3
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 5968827791230369816
+  references:
+    version: 2
+    RefIds:
+    - rid: 5968827791230369816
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1699767173950
