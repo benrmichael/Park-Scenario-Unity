@@ -22,11 +22,12 @@ public class AudioTrigger : MonoBehaviour
 
     void OnTriggerEnter()
     {
-        if(!alreadyPlayed)
-        {
-            audioSource.PlayOneShot(SoundToPlay, Volume);
-            alreadyPlayed = true;
-        }
+        //if(!alreadyPlayed)
+        //{
+        //    audioSource.PlayOneShot(SoundToPlay, Volume);
+        //    alreadyPlayed = true;
+        //}
+	PlayTheSoundClip();
     }
 
     public void PlayTheSoundClip()

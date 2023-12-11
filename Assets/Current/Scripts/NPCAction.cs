@@ -15,7 +15,7 @@ public class NPCAction : MonoBehaviour
     [SerializeField] public GameObject myCheckpoint;
 
     //determines which item is desired by the NPC (later, maybe randomize the options?)
-    [SerializeField] public GameObject myItem;
+    private GameObject myItem;
 
     //these flags are used to determine timing for the script, animation states, and to make sure the NPC is on the ground
     public bool active;             //so the scenarior knows this character will start their script

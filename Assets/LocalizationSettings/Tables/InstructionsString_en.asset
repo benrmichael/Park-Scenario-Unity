@@ -50,7 +50,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1417124747767808
-    m_Localized: Press Trigger to Start!
+    m_Localized: Memorize the item order on the right. When ready,  Press trigger
+      to start!
     m_Metadata:
       m_Items: []
   - m_Id: 1424400619499520
@@ -61,6 +62,38 @@ MonoBehaviour:
       Chips
 
       Rock'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4981143265861632
+    m_Localized: 'Order:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4981238979878912
+    m_Localized: Bottle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4982314906935296
+    m_Localized: Bandage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4982419257024512
+    m_Localized: Apple
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5030582168838144
+    m_Localized: Rock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5030619414257664
+    m_Localized: Stick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5030635566522368
+    m_Localized: Chips
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9735535583965184
+    m_Localized: Soccer Ball
     m_Metadata:
       m_Items: []
   references:

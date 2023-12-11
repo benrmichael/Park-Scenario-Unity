@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 23625560064
-    m_Localized: Practica lanzar objetos.
+    m_Localized: "Practica lanzar objetos.\r"
     m_Metadata:
       m_Items: []
   - m_Id: 15379475820544
@@ -33,7 +33,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1067564385005568
-    m_Localized: "\xA1Presione el gatillo para comenzar!"
+    m_Localized: "Memoriza el orden de los art\xEDculos a tu derecha. Cuando est\xE9s
+      listo, Presione el gatillo para comenzar!"
     m_Metadata:
       m_Items: []
   - m_Id: 1414779234250752
@@ -47,7 +48,8 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1417124747767808
-    m_Localized: "\xA1Presione el gatillo para comenzar!"
+    m_Localized: "Memoriza el orden de los art\xEDculos a tu derecha. Cuando est\xE9s
+      listo, Presione el gatillo para comenzar!"
     m_Metadata:
       m_Items: []
   - m_Id: 1424400619499520
@@ -58,6 +60,38 @@ MonoBehaviour:
       Papas fritas
 
       Roca'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4981143265861632
+    m_Localized: 'Orden:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4981238979878912
+    m_Localized: Botella
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4982314906935296
+    m_Localized: Vendaje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4982419257024512
+    m_Localized: Manzana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5030582168838144
+    m_Localized: Roca
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5030619414257664
+    m_Localized: Palo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5030635566522368
+    m_Localized: Papas fritas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9735535583965184
+    m_Localized: "F\xFAtbol"
     m_Metadata:
       m_Items: []
   references:

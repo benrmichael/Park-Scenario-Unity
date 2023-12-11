@@ -2,13 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Localization.Settings;
+using UnityEngine.Localization;
 
 public class RandomizeItemOrder : MonoBehaviour
 {
     private int numberOfPossibleItems;
     private const int NUMBER_OF_NPCS = 3;
 
-    private string item_order = "Order:\n";
+    private string itemOrder;
     [SerializeField] public GameObject orderTextBox;
 
     [SerializeField] public GameObject[] npcArray;
@@ -21,9 +23,11 @@ public class RandomizeItemOrder : MonoBehaviour
         {
             return;
         }
+	numberOfPossibleItems = availableItems.Length;
 
-        numberOfPossibleItems = availableItems.Length;
+	AppendToItemOrder("Order", true);
         RandomizeObjects();
+	SetOrderText();
     }
 
     private void RandomizeObjects()
@@ -31,18 +35,15 @@ public class RandomizeItemOrder : MonoBehaviour
         int npcNumber = 0;
         while (npcNumber < NUMBER_OF_NPCS)
         {
-            int randomInt = Random.Range(0, NUMBER_OF_NPCS - npcNumber);
+            int randomInt = Random.Range(0, availableItems.Length - npcNumber);
+
             // Setting the item for each NPC also allows their scripts to begin running (avoid race conditions)
             npcArray[npcNumber++].GetComponent<NPCAction>().SetNpcItem(availableItems[randomInt]);
-            item_order += availableItems[randomInt].name;
-            if (npcNumber != 3)
-            {
-                item_order += "\n";
-            }
+
+            string nameOfItem = availableItems[randomInt].name;
+            AppendToItemOrder(nameOfItem, (npcNumber != 3) ? true : false);
             ShiftArray(randomInt);
         }
-
-        SetOrderText();
     }
 
     private void ShiftArray(int indexRemoved)
@@ -59,8 +60,15 @@ public class RandomizeItemOrder : MonoBehaviour
         TextMeshProUGUI textMeshPro = orderTextBox.GetComponent<TextMeshProUGUI>();
         if (textMeshPro != null)
         {
-            textMeshPro.text = item_order;
+            textMeshPro.text = itemOrder;
         }
+    }
+
+    private void AppendToItemOrder(string key, bool nl)
+    {
+	string itemName = LocalizationSettings.StringDatabase.GetLocalizedStringAsync(key).Result;
+	itemName = (nl) ? itemName + "\n" : itemName;
+	itemOrder += itemName;
     }
 
 }
