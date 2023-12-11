@@ -21,12 +21,18 @@ MonoBehaviour:
     m_Address: Assets/LocalizationSettings/Tables/InstructionsString Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+<<<<<<< HEAD
     FlaggedDuringContentUpdateRestriction: 0
+=======
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
   - m_GUID: f11e6ed477abb7d4a9939b984925dbb2
     m_Address: Assets/LocalizationSettings/Tables/Audio Table Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+<<<<<<< HEAD
     FlaggedDuringContentUpdateRestriction: 0
+=======
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4f106376f93060646b60986dd57d8680, type: 2}
   m_SchemaSet:

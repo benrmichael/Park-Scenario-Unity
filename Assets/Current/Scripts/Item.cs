@@ -53,9 +53,13 @@ public class Item : MonoBehaviour
 
             //we then look to see if this item is the same as the desired item stored in the NPC scripts
             //if it is, the correctItem flag is set to true
+<<<<<<< HEAD
 	    Debug.Log("NPC (" + NPC.name + ") item -> " + NPC.GetComponent<NPCAction>().GetItemObject().name
 		+ ". Actual item: " + gameObject.name);
             if(GameObject.ReferenceEquals(gameObject, NPC.GetComponent<NPCAction>().GetItemObject()))
+=======
+            if(GameObject.ReferenceEquals(gameObject, NPC.GetComponent<NPCAction>().myItem))
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
             {
                 NPC.GetComponent<NPCAction>().correctItem = true;
                 manager.GetComponent<Manager>().numberCorrect += 1;

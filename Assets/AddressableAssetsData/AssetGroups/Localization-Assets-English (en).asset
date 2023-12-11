@@ -17,6 +17,7 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 83373b4cd4db8c548bf1808011600d44
   m_SerializeEntries:
+<<<<<<< HEAD
   - m_GUID: 9bc4617afd7043143b6e2239d4811143
     m_Address: intro_en
     m_ReadOnly: 1
@@ -47,20 +48,58 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-en
     FlaggedDuringContentUpdateRestriction: 0
+=======
+  - m_GUID: fbd8e39a797eaaf43ac5b94af2283a13
+    m_Address: Intro1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 157789ea25b9a9842b8c102d71fa072d
+    m_Address: hello1
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: d0421e933d800974198c7c39a4fcb605
+    m_Address: hello2
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 5430a252bcfd5424eafc3addf360a80d
+    m_Address: hello3
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+  - m_GUID: 8d1bdd6f52e151a488a61c8e274e89ac
+    m_Address: Outtro
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-en
+    - Locale-es
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
   - m_GUID: bbe2ab81e9c2ec24ea0d7b39a6ed4aa8
     m_Address: Intro3
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     - Locale-es
+<<<<<<< HEAD
     FlaggedDuringContentUpdateRestriction: 0
+=======
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
   - m_GUID: 8d15647d26ccff94ba001ca2123b08aa
     m_Address: Intro4
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-en
     - Locale-es
+<<<<<<< HEAD
     FlaggedDuringContentUpdateRestriction: 0
+=======
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4f106376f93060646b60986dd57d8680, type: 2}
   m_SchemaSet:

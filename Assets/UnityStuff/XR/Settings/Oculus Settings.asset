@@ -16,6 +16,7 @@ MonoBehaviour:
   m_StereoRenderingModeAndroid: 0
   SharedDepthBuffer: 1
   DashSupport: 1
+<<<<<<< HEAD
   LowOverheadMode: 0
   OptimizeBufferDiscards: 1
   PhaseSync: 0
@@ -24,6 +25,15 @@ MonoBehaviour:
   LateLatching: 0
   LateLatchingDebug: 0
   SpaceWarp: 0
+=======
+  V2Signing: 1
+  LowOverheadMode: 0
+  ProtectedContext: 0
+  FocusAware: 1
+  OptimizeBufferDiscards: 1
+  PhaseSync: 0
+  SubsampledLayout: 0
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
   TargetQuest: 1
   TargetQuest2: 1
   SystemSplashScreen: {fileID: 0}

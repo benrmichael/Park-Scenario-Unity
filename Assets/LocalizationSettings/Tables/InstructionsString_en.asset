@@ -33,10 +33,14 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1067564385005568
+<<<<<<< HEAD
     m_Localized: 'Memorize the item order on the right.
 
       When you are ready,
       press trigger to start!'
+=======
+    m_Localized: Press Trigger to Start!
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
     m_Metadata:
       m_Items: []
   - m_Id: 1414779234250752
@@ -50,8 +54,12 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1417124747767808
+<<<<<<< HEAD
     m_Localized: Memorize the item order on the right. When ready,  Press trigger
       to start!
+=======
+    m_Localized: Press Trigger to Start!
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
     m_Metadata:
       m_Items: []
   - m_Id: 1424400619499520
@@ -64,6 +72,7 @@ MonoBehaviour:
       Rock'
     m_Metadata:
       m_Items: []
+<<<<<<< HEAD
   - m_Id: 4981143265861632
     m_Localized: 'Order:'
     m_Metadata:
@@ -96,6 +105,8 @@ MonoBehaviour:
     m_Localized: Soccer Ball
     m_Metadata:
       m_Items: []
+=======
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
   references:
     version: 2
     RefIds: []

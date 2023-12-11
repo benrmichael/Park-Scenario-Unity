@@ -2224,6 +2224,10 @@ MonoBehaviour:
   thePlayer: {fileID: 0}
   myBench: {fileID: 0}
   myCheckpoint: {fileID: 0}
+<<<<<<< HEAD
+=======
+  myItem: {fileID: 0}
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
   active: 1
   walking: 0
   checkpointReached: 0

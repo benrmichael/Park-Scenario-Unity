@@ -23,6 +23,7 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     - Locale-en
+<<<<<<< HEAD
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5d333e9795687724a95ca26648bdb954
     m_Address: intro_sp
@@ -54,6 +55,8 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     FlaggedDuringContentUpdateRestriction: 0
+=======
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4f106376f93060646b60986dd57d8680, type: 2}
   m_SchemaSet:

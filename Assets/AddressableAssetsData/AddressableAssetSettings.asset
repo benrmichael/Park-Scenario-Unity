@@ -38,7 +38,11 @@ MonoBehaviour:
   m_RemoteCatalogLoadPath:
     m_Id: 
   m_ContentStateBuildPath: 
+<<<<<<< HEAD
   m_BuildAddressablesWithPlayerBuild: 1
+=======
+  m_BuildAddressablesWithPlayerBuild: 0
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
   m_overridePlayerVersion: 
   m_GroupAssets:
   - {fileID: 11400000, guid: 1c6ac8d1420010d45b6db658fc9fdac0, type: 2}

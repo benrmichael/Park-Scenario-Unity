@@ -15,7 +15,11 @@ public class NPCAction : MonoBehaviour
     [SerializeField] public GameObject myCheckpoint;
 
     //determines which item is desired by the NPC (later, maybe randomize the options?)
+<<<<<<< HEAD
     private GameObject myItem;
+=======
+    [SerializeField] public GameObject myItem;
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
 
     //these flags are used to determine timing for the script, animation states, and to make sure the NPC is on the ground
     public bool active;             //so the scenarior knows this character will start their script
@@ -37,7 +41,11 @@ public class NPCAction : MonoBehaviour
     //[SerializeField] public GameObject Wrong;
 
     //when we start
+<<<<<<< HEAD
     /*private void Start()
+=======
+    private void Start()
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
     {
         //declare the tools on the NPC object
         myBody = GetComponent<Rigidbody>();
@@ -51,10 +59,17 @@ public class NPCAction : MonoBehaviour
         receivedItem = false;
         seated = false;
         isGrounded = false;
+<<<<<<< HEAD
     }*/
 
     // Called from SetNpcItem() : safe since it will only be called once per scene
     private void StartScriptExecution()
+=======
+    }
+
+    // Called from SetNpcItem() : safe since it will only be called once per scene
+   /* private void StartScriptExecution()
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
     {
         Debug.Log("I am (" + this.name + ") and my item is: " + myItem.name);
         //declare the tools on the NPC object
@@ -69,7 +84,11 @@ public class NPCAction : MonoBehaviour
         receivedItem = false;
         seated = false;
         isGrounded = false;
+<<<<<<< HEAD
     }
+=======
+    }*/
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
 
     //once a frame, helps keep track of the state of the NPC
     private void Update()
@@ -201,7 +220,11 @@ public class NPCAction : MonoBehaviour
         myBody.MoveRotation(myBody.rotation * deltaRotation);
     }
 
+<<<<<<< HEAD
     public void SetNpcItem(GameObject item)
+=======
+    /*public void SetNpcItem(GameObject item)
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
     {
         myItem = item;
         StartScriptExecution();
@@ -210,6 +233,10 @@ public class NPCAction : MonoBehaviour
     public GameObject GetItemObject()
     {
         return myItem;
+<<<<<<< HEAD
     }
+=======
+    }*/
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
 
 }

@@ -53,8 +53,13 @@ MonoBehaviour:
       type: {class: LocalizedStringDatabase, ns: UnityEngine.Localization.Settings, asm: Unity.Localization}
       data:
         m_DefaultTableReference:
+<<<<<<< HEAD
           m_TableCollectionName: String Table
         m_UseFallback: 1
+=======
+          m_TableCollectionName: 
+        m_UseFallback: 0
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
         m_MissingTranslationState: 1
         m_NoTranslationFoundMessage: No translation found for '{key}' in {table.TableCollectionName}
         m_SmartFormat:

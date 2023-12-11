@@ -12,16 +12,27 @@ TagManager:
   - Wall
   - NPCBox
   - DeadZone
+<<<<<<< HEAD
   - Person1
+=======
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
+<<<<<<< HEAD
   - Item1
   - Water
   - UI
   - Item2
   - Item3
+=======
+  - 
+  - Water
+  - UI
+  - 
+  - 
+>>>>>>> 7f6ba21916b8b97113b7c9b0a2eb474cb61d23fd
   - 
   - 
   - 
