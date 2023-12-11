@@ -10,6 +10,7 @@ public class Item : MonoBehaviour
 
     //we store the original position of the item so it can respawn correctly. currently faulty, as forward momentum is stored when respawned, so I need to set momentum to zero on respawn
     public Vector3 origin;
+    private Quaternion initialRotation;
 
     //store the NPC type character
     [SerializeField] private GameObject NPC;
@@ -19,18 +20,20 @@ public class Item : MonoBehaviour
     {
         //saves the original position at the start
         origin = GetComponent<Rigidbody>().transform.position;
+	initialRotation = transform.rotation;
         manager = GameObject.Find("ScenarioManager");
     }
 
-    //when the item collides with the floor, or deadzone, it is moved to the origin position again
-    //this is where I would adjust the momentum problem later
+    // When an item collides with the floor (aka DeadZone) we reset it back to the original position/rotation, and set all velocity to 0.
     private void OnTriggerEnter(Collider other)
     {
         if(other.gameObject.tag == "DeadZone")
         {
             
             gameObject.transform.position =  origin;
-            gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0,0,0);
+	    gameObject.transform.rotation = initialRotation;
+            gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+	    gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         }
 
         
