@@ -30,10 +30,7 @@ public class Item : MonoBehaviour
         if(other.gameObject.tag == "DeadZone")
         {
             
-            gameObject.transform.position =  origin;
-	    gameObject.transform.rotation = initialRotation;
-            gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
-	    gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            RespawnItem();
         }
 
         
@@ -43,8 +40,9 @@ public class Item : MonoBehaviour
     private void OnCollisionEnter(Collision other)
     {
         if(other.gameObject.tag == "Inventory")
-        {
-
+        {	
+            gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+	    gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
         }
         else if(other.gameObject.tag ==  "NPCBox")
         {
@@ -69,16 +67,20 @@ public class Item : MonoBehaviour
             }
 
             //either way, the scenario continues with these updated values
-            //then, we destroy the item to keep it out of the scenario
-            //Destroy(gameObject);
-
-            gameObject.transform.position =  origin;
-            gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0,0,0);
+            RespawnItem();
         }
         else if(other.gameObject.tag == "Deadzone")
         {
-            gameObject.transform.position =  origin;
-            gameObject.GetComponent<Rigidbody>().velocity = new Vector3(0,0,0);
+            RespawnItem();
         }
+    }
+
+    // Reset the current game object back to it's original position/rotation with nil velocity
+    private void RespawnItem()
+    {
+	gameObject.transform.position =  origin;
+	gameObject.transform.rotation = initialRotation;
+        gameObject.GetComponent<Rigidbody>().velocity = Vector3.zero;
+	gameObject.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
     }
 }
